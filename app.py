@@ -23,3 +23,5 @@ def home(genre):
 @app.route('/movie/<movie>')
 def movie_page(movie):
     return render_template("movie.html", movie=movie)
+
+## Im dumb and pushed to main and need to modify the files under a feature branch so I'm adding this here
